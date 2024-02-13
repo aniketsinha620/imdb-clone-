@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+.navItems {
+    height: 60vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.navbar-logo {
+    width: 90%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.navbar-logo1-h1 {
+    background-color: blue;
+    ;
+}
+
+.navbar-logo img {}
+
+.navbar-logo h1 {
+    color: black;
+
+}
+
+.navbar-items {
+
+    height: 40vh;
+
+    margin-bottom: 40px;
+
+}
+
+.navbar-items ul {
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    list-style-type: none;
+
+}
+
+.txt {
+    text-decoration: none;
+
+
+    font-size: 20px;
+    color: black;
+}
+
+.media {
+    width: 100%;
+    height: 40vh;
+
+}
+
+.media button {
+    margin-left: 30px;
+    color: black;
+    font-weight: 800;
+    /* background-color: #ffb700; */
+    background-color: red;
+    border: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+.media button {
+    background-color: blue;
+}
+
+.navItems1 {
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1rem 2fr 3fr 2fr 5rem;
+}
+
+.navbar-logo1 {
+    grid-column: 2/3;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-logo1 img {
+    color: white;
+    text-decoration: none;
+    width: 80px;
+    width: 100px;
+    height: 70px;
+
+}
+
+
+.navbar-logo1 h2 {
+    display: none;
+    cursor: pointer;
+}
+
+
+.navbar-items1 {
+
+    grid-column-start: 2/3;
+
+    display: flex;
+    align-items: center;
+    font-family: "Poppins";
+}
+
+.navbar-items1 ul {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.navbar-items1 li {
+    font-style: none;
+
+
+}
+
+.txt1 {
+    text-decoration: none;
+
+
+    font-size: 18px;
+    color: white;
+}
+
+
+.media1 {
+
+    text-align: end;
+    align-self: center;
+
+}
+
+.media1 button {
+
+    color: black;
+    font-weight: 800;
+    background-color: #ffb700;
+
+    border: none;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+.active {
+    color: #ffb700;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .navbar-items1,
+    .media1 {
+        display: none;
+    }
+
+    h3 {
+        display: block;
+
+    }
+
+    .toggle-nav {
+        display: block;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar-logo1 {
+
+        width: 100vh;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-logo1 h2 {
+        display: block;
+        font-size: 20px;
+
+        margin-right: 20px;
+
+    }
+}

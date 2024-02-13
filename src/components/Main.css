@@ -1,0 +1,27 @@
+.movie-list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.movie-list h2 {
+
+    font-size: 34px;
+
+    padding: 0px 0px 0px 60px;
+}
+
+.list-card {
+
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    align-items: center;
+    align-self: center;
+}
+
+.list-card>* {
+    flex: 1 1 100px;
+}
